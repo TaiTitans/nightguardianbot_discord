@@ -1,0 +1,10 @@
+build:
+  docker:
+    web: Dockerfile
+
+release:
+  command:
+    - python -m pip install -r requirements.txt
+
+run:
+  web: python nightguardian.py
