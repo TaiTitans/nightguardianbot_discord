@@ -6,7 +6,7 @@ build:
 run:
   web:
     command:
-    - python -m pip install -r requirements.txt
+      - python -m pip install -r requirements.txt
     image: web
   worker:
     command:
