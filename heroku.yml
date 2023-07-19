@@ -8,6 +8,6 @@ release:
 
 run:
   worker:
-    image: python:3.10
+    image: worker
     command:
       - python nightguardian.py
