@@ -7,4 +7,7 @@ release:
     - python -m pip install -r requirements.txt
 
 run:
-  worker: python nightguardian.py
+  worker:
+    command:
+      - python nightguardian.py
+    image: python:3.10
