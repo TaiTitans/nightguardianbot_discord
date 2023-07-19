@@ -7,4 +7,4 @@ release:
     - python -m pip install -r requirements.txt
 
 run:
-  web: python nightguardian.py
+  worker: python nightguardian.py
